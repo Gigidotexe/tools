@@ -27,7 +27,7 @@ haunter = """
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠑⠠⣉⣈⡡⠔⠊⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⠁⠀⠀⡟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 """
 
-banner = pyfiglet.figlet_format("GHost Discover", font="slant")
+banner = pyfiglet.figlet_format("GHost Hunter", font="slant")
 print(banner.rstrip())
 print("\033[35m" + haunter + "\033[0m")
 
