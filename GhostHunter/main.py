@@ -8,8 +8,12 @@ import threading
 import itertools
 import pyfiglet
 
-scan_dir = "scans"
-os.makedirs(scan_dir, exist_ok=True)
+def ensure_scan_directory():
+    scan_dir = "scans"
+    os.makedirs(scan_dir, exist_ok=True)
+    return scan_dir
+
+scan_dir = ensure_scan_directory()
 
 os.system("clear")
 
@@ -42,6 +46,7 @@ def load_previous_scan(file_name):
     return previous_devices, previous_hosts
 
 def scan_network(target):
+    scan_dir = ensure_scan_directory()
     print(f"\033[33mStarting scan on {target}...\033[0m")
 
     stop_event = threading.Event()
@@ -90,7 +95,7 @@ def scan_network(target):
             if "." in full_hostname:
                 hostname, router = full_hostname.split(".", 1)
             else:
-                hostname, router = full_hostname, "N/A"
+                hostname, router = "N/A"
             active_hosts.append((host, hostname, router, mac_address))
         active_hosts.sort(key=lambda x: ip_address(x[0]))
     
