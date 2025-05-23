@@ -7,7 +7,6 @@ Ogni tool è pensato per studiare, sperimentare e automatizzare compiti legati a
 
 ## Tool #1 – GHost Hunter
 
-> **Stato:** ✅ Completato  
 > **Descrizione:** Scanner di rete che utilizza `nmap` per rilevare dispositivi attivi, confrontare risultati con scansioni precedenti e identificare nuovi host.  
 > Include output salvabile, banner ASCII art e animazioni CLI.
 
