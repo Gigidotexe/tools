@@ -1,5 +1,5 @@
-# GHost Hunter <img src="https://github.com/Gigidotexe/Gigidotexe/blob/main/Img/haunter.png" height="100" />
-
+# GHost Hunter 
+<img src="https://github.com/Gigidotexe/Gigidotexe/blob/main/Img/haunter.png" height="100" />
 GHost Hunter è uno scanner di rete Python che rileva dispositivi attivi all’interno di una rete locale, confronta i risultati con scansioni precedenti per identificare nuovi dispositivi, e salva i risultati in file di testo organizzati.
 
 ---
