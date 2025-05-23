@@ -5,7 +5,7 @@ Ogni tool è pensato per studiare, sperimentare e automatizzare compiti legati a
 
 ---
 
-##Tool #1 – GHost Hunter
+## Tool #1 – GHost Hunter
 
 > **Stato:** ✅ Completato  
 > **Descrizione:** Scanner di rete che utilizza `nmap` per rilevare dispositivi attivi, confrontare risultati con scansioni precedenti e identificare nuovi host.  
@@ -15,7 +15,7 @@ Ogni tool è pensato per studiare, sperimentare e automatizzare compiti legati a
 
 ---
 
-##Tool #2 – Deauther
+## Tool #2 – Deauther
 
 > **Stato:** 🚧 Work in progress  
 > **Descrizione prevista:** Tool destinato a simulare attacchi di deautenticazione su reti Wi-Fi, utile per testare la robustezza delle infrastrutture wireless in ambienti controllati.
