@@ -1,30 +1,51 @@
 #!/bin/bash
 
-echo -e "\033[36m[+] Setting up the environment...\033[0m"
+# Function to check if a command is available on the system
+function check_command {
+    command -v "$1" &> /dev/null
+}
 
-# Update package lists
-sudo apt update
+# Update and install system dependencies (if needed)
+echo "[+] Starting dependency installation..."
 
-# Install required system packages
-echo -e "\033[33m[+] Installing system dependencies...\033[0m"
-sudo apt install -y python3 python3-pip nmap
+# Check if Python3 is installed
+if ! check_command "python3"; then
+    echo "[!] Python3 not found. Please make sure Python3 is installed before proceeding."
+    exit 1
+fi
+
+# Check if pip is installed
+if ! check_command "pip3"; then
+    echo "[!] pip3 not found. Installing pip..."
+    sudo apt-get install python3-pip -y
+fi
 
 # Install required Python libraries
-echo -e "\033[33m[+] Installing Python dependencies...\033[0m"
-pip3 install --upgrade pip
-pip3 install python-nmap pyfiglet
-pip install colorama --break-system-packages
+echo "[+] Installing required Python libraries..."
+pip3 install -r requirements.txt --break-system-packages
 
-# Verify installations
-echo -e "\033[32m[+] Verifying installations...\033[0m"
-if ! command -v nmap &> /dev/null; then
-    echo -e "\033[31m[-] Nmap installation failed!\033[0m"
-    exit 1
+# Check if nmap is installed
+if ! check_command "nmap"; then
+    echo "[!] nmap not found. Installing nmap..."
+    sudo apt-get install nmap -y
+else
+    echo "[+] nmap is already installed."
 fi
 
-if ! python3 -c "import nmap, pyfiglet" &> /dev/null; then
-    echo -e "\033[31m[-] Python dependencies installation failed!\033[0m"
-    exit 1
+# Provide instructions or install pyfiglet if not present
+if ! python3 -c "import pyfiglet" &> /dev/null; then
+    echo "[!] pyfiglet not found. Installing pyfiglet..."
+    pip3 install pyfiglet
+else
+    echo "[+] pyfiglet is already installed."
 fi
 
-echo -e "\033[32m[✔] Setup complete! You can now run your scan script.\033[0m"
+# Check if colorama is installed
+if ! python3 -c "import colorama" &> /dev/null; then
+    echo "[!] colorama not found. Installing colorama..."
+    pip3 install colorama
+else
+    echo "[+] colorama is already installed."
+fi
+
+echo "[+] Setup completed successfully! You can now run the program."
