@@ -1,6 +1,6 @@
 # 🛠️ Gigidotexe's Cybersecurity Toolkit
 
-Benvenuto nel mio repository principale dedicato agli strumenti di cybersecurity che sto sviluppando nel mio percorso formativo e professionale.  
+Benvenuto nel mio repository dedicato agli strumenti di cybersecurity che sto sviluppando nel mio percorso formativo e professionale.  
 Ogni tool è pensato per studiare, sperimentare e automatizzare compiti legati all’**analisi delle reti**, al **monitoraggio dei sistemi** e alla **difesa proattiva**.
 
 ---
