@@ -52,13 +52,3 @@ Questo repository serve da **raccoglitore e laboratorio** per la creazione di st
 - Automazione di task di analisi e sicurezza
 
 ---
-
-## 📢 Contribuisci
-
-Se vuoi suggerire idee o contribuire con codice, sentiti libero di aprire una issue o una pull request.
-
----
-
-## 📜 Licenza
-
-Tutti i tool presenti in questo repository sono distribuiti sotto licenza **MIT**, salvo diversa indicazione nei rispettivi progetti.
