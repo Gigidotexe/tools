@@ -41,14 +41,3 @@ Ogni tool è pensato per studiare, sperimentare e automatizzare compiti legati a
 📁 *Disponibile a breve*
 
 ---
-
-## 🧭 Obiettivo del progetto
-
-Questo repository serve da **raccoglitore e laboratorio** per la creazione di strumenti utili in contesti di:
-
-- Penetration testing
-- Network monitoring
-- Threat detection
-- Automazione di task di analisi e sicurezza
-
----
