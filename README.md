@@ -13,7 +13,16 @@ Ogni tool è pensato per studiare, sperimentare e automatizzare compiti legati a
 
 ---
 
-## Tool #2 – Deauther
+## Tool #2 – LogAnalyzer
+
+> **Stato:** 🚧 Work in progress  
+> **Descrizione prevista:** Script Python per l'analisi e la classificazione di log di sistema tramite regex personalizzabili
+
+📁 *Disponibile a breve*
+
+---
+
+## Tool #3 – Deauther
 
 > **Stato:** 🚧 Work in progress  
 > **Descrizione prevista:** Tool destinato a simulare attacchi di deautenticazione su reti Wi-Fi, utile per testare la robustezza delle infrastrutture wireless in ambienti controllati.
@@ -22,14 +31,6 @@ Ogni tool è pensato per studiare, sperimentare e automatizzare compiti legati a
 
 ---
 
-## Tool #3 – LogAnalyzer
-
-> **Stato:** 🚧 Work in progress  
-> **Descrizione prevista:** Script Python per l'analisi e la classificazione di log di sistema tramite regex personalizzabili
-
-📁 *Disponibile a breve*
-
----
 
 
 
