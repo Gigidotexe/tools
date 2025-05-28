@@ -21,3 +21,15 @@ Ogni tool è pensato per studiare, sperimentare e automatizzare compiti legati a
 📁 *Disponibile a breve*
 
 ---
+
+## Tool #3 – LogAnalyzer
+
+> **Stato:** 🚧 Work in progress  
+> **Descrizione prevista:** Script Python per l'analisi e la classificazione di log di sistema tramite regex personalizzabili
+
+📁 *Disponibile a breve*
+
+---
+
+
+
