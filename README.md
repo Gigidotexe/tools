@@ -7,7 +7,7 @@ Ogni tool è pensato per studiare, sperimentare e automatizzare compiti legati a
 
 ## Tool #1 – GHost Hunter
 
-> **Descrizione:** Scanner di rete che utilizza `nmap` per rilevare dispositivi attivi, confrontare risultati con scansioni precedenti e identificare nuovi host.  
+> **Descrizione:** Scanner di rete che scansiona la rete al livello 2, 3 e 4 per rilevare dispositivi attivi in base alle diverse configurazioni.  
 
 📁 [Vai al progetto ›](https://github.com/Gigidotexe/GHost-Hunter)  
 
