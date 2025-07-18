@@ -5,7 +5,7 @@ Ogni tool è pensato per studiare, sperimentare e automatizzare compiti legati a
 
 ---
 
-## Tool #1 – GHost Hunter
+## GHost Hunter
 
 > **Descrizione:** Scanner di rete che scansiona la rete al livello 2, 3 e 4 per rilevare dispositivi attivi in base alle diverse configurazioni.  
 
@@ -13,19 +13,19 @@ Ogni tool è pensato per studiare, sperimentare e automatizzare compiti legati a
 
 ---
 
-## Tool #2 – LogAnalyzer
+## Evil Access Point
 
 > **Stato:** 🚧 Work in progress  
-> **Descrizione prevista:** Script Python per l'analisi e la classificazione di log di sistema tramite regex personalizzabili
+> **Descrizione prevista:** Script bash per la creazione di un finto AC per poter gestire il traffico di un dispositivo connesso.
 
 📁 *Disponibile a breve*
 
 ---
 
-## Tool #3 – Deauther
+## LogAnalyzer
 
 > **Stato:** 🚧 Work in progress  
-> **Descrizione prevista:** Tool destinato a simulare attacchi di deautenticazione su reti Wi-Fi, utile per testare la robustezza delle infrastrutture wireless in ambienti controllati.
+> **Descrizione prevista:** Script Python per l'analisi e la classificazione di log di sistema tramite regex personalizzabili
 
 📁 *Disponibile a breve*
 
