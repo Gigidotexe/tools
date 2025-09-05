@@ -13,6 +13,14 @@ Ogni tool è pensato per studiare, sperimentare e automatizzare compiti legati a
 
 ---
 
+## LogAnalyzer
+
+> **Descrizione prevista:** Script Python per l'analisi e la classificazione di log di sistema tramite regex personalizzabili
+
+📁 [Vai al progetto ›](https://github.com/Gigidotexe/LogAnalyzer)
+
+---
+
 ## Evil Access Point
 
 > **Stato:** 🚧 Work in progress  
@@ -22,14 +30,7 @@ Ogni tool è pensato per studiare, sperimentare e automatizzare compiti legati a
 
 ---
 
-## LogAnalyzer
 
-> **Stato:** 🚧 Work in progress  
-> **Descrizione prevista:** Script Python per l'analisi e la classificazione di log di sistema tramite regex personalizzabili
-
-📁 *Disponibile a breve*
-
----
 
 
 
