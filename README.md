@@ -21,6 +21,14 @@ Ogni tool è pensato per studiare, sperimentare e automatizzare compiti legati a
 
 ---
 
+## Searcher
+
+> **Descrizione:** Database locale per ricercare informazioni da un file .txt
+
+📁 [Vai al progetto ›](https://github.com/Gigidotexe/Searcher)
+
+---
+
 ## Evil Access Point
 
 > **Stato:** 🚧 Work in progress  
